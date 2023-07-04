@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
 /*
 CSS for whole main navigation bar  
 */
 
-.navbar {
+.navigation-bar-css {
     height: 60px;
     background-color: black;
     color: white;
@@ -15,13 +21,13 @@ CSS for whole main navigation bar
 /*
 CSS for Amazon logo Box 1 
 */
-.nav-logo {
+.navigation-logo-css {
     height: 50px;
     width: 100px;
 
 }
 
-.logo {
+.navigation-logo {
     background-image: url("src/assets/amazon_logo.png");
     height: 60px;
     width: 100%;
@@ -32,11 +38,11 @@ CSS for Amazon logo Box 1
 CSS for showing white border on hover 
 */
 
-.border {
+.navigation-border {
     border: 1.5px solid transparent
 }
 
-.border:hover {
+.navigation-border:hover {
     border: 1.5px solid white
 }
 
@@ -44,20 +50,20 @@ CSS for showing white border on hover
 CSS for navigation "Deliver to India" box 2 
 */
 
-.nav-address-icon {
+.navigation-address-icon {
     display: flex;
     align-items: center;
     font-size: 1.3rem;
 }
 
-.nav-address-first {
+.navigation-address-first {
     color: #dddddd;
     font-size: 0.7rem;
     margin-left: 25px;
 
 }
 
-.nav-address-second {
+.navigation-address-second {
     font-size: 1rem;
     margin-left: 1px;
 }
@@ -66,7 +72,7 @@ CSS for navigation "Deliver to India" box 2
 CSS for navigation "Search Box" box 3 
 */
 
-.nav-search {
+.navigation-search {
     margin-left: 15px;
     align-items: center;
     display: flex;
@@ -76,11 +82,11 @@ CSS for navigation "Search Box" box 3
     justify-content: space-evenly;
 }
 
-.nav-search:hover {
+.navigation-search:hover {
     border: 3px solid orange;
 }
 
-.nav-search-select {
+.navigation-search-select {
     background-color: #f3f3f3;
     color: #0F1111;
     font-size: 12px;
@@ -92,14 +98,14 @@ CSS for navigation "Search Box" box 3
     border-bottom-left-radius: 4px;
 }
 
-.nav-search-textbox {
-    height: 18px;
+.navigation-search-textbox {
+    height: 39px;
     width: 100%;
     font-size: 1rem;
     border: 10px solid white;
 }
 
-.nav-search-icon {
+.navigation-search-icon {
     height: 40px;
     width: 45px;
     border-top-right-radius: 3px;
@@ -118,7 +124,7 @@ CSS for navigation "Search Box" box 3
 CSS for navigation "Lanaguage selector"
 */
 
-.nav-language-selector {
+.navigation-language-selector {
     width: 60px;
     height: 20px;
     background-color: transparent;
@@ -126,14 +132,14 @@ CSS for navigation "Lanaguage selector"
     display: flex;
 }
 
-.nav-language-selector a {
+.navigation-language-selector a {
     font-size: 0.85rem;
     margin-left: 0px;
     margin-right: 0px;
     font-weight: 700;
 }
 
-.nav-language-selector-caret {
+.navigation-language-selector-caret {
     margin-left: 0px;
     margin-top: 5px;
     font-size: 10px;
@@ -144,11 +150,11 @@ CSS for navigation "Lanaguage selector"
 CSS for navigation "Sign in and Returns and Lists" box 4  and box 5
 */
 
-.nav-common-style-first {
+.navigation-common-style-first {
     font-size: 0.7rem;
 }
 
-.nav-common-style-second {
+.navigation-common-style-second {
     font-size: 0.85rem;
     font-weight: 700;
 
@@ -159,7 +165,7 @@ CSS for navigation "Cart" box 6
 */
 
 
-.nav-cart-shopping-cart-icon {
+.navigation-cart-shopping-cart-icon {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -175,7 +181,7 @@ CSS for navigation "Cart" box 6
     margin-right: 14px;
 }
 
-.nav-cart a {
+.navigation-cart a {
     font-size: 0.85rem;
     font-weight: 700;
     margin-bottom: 40px;

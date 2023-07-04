@@ -1,8 +1,13 @@
 /** 
 CSS for Panel Menu below Header
 **/
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
 
-.panel {
+.menu-panel {
     background-color: #222f3d;
     color: white;
     display: flex;
@@ -11,26 +16,26 @@ CSS for Panel Menu below Header
     justify-content: space-evenly;
 }
 
-.panel a {
+.menu-panel a {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.panel-menu-all-icon {
+.menu-panel-menu-all-icon {
     font-size: 20px;
 }
 
-.panel-options {
+.menu-panel-options {
     width: 70%;
 }
 
-.panel-options p {
+.menu-panel-options p {
     margin-left: 20px;
     display: inline;
     font-size: 0.85rem;
 }
 
-.panel-exciting-deals {
+.menu-panel-exciting-deals {
     font-size: 0.9rem;
     font-weight: 700;
 }
