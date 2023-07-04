@@ -1,0 +1,71 @@
+/** CSS for back to top panel **/
+
+.footer-backtotop-panel {
+    height: 50px;
+    color: white;
+    background-color: #37475a;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** CSS for footer info panel **/
+
+.footer-info-panel {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-info-panel a {
+    font-size: 0.85rem;
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+}
+
+.footer-info-panel p {
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+/** CSS for amazon tools panel **/
+
+.footer-global-info-panel {
+    height: 70px;
+    border-top: 0.5px solid white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-logo {
+    background-image: url("src/assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/** CSS for amazon copyright/years panel **/
+
+.footer-copyright-panel {
+    background-color: #0F1111;
+    color: white;
+    text-align: center;
+    height: 76px;
+    justify-content: center;
+    font-size: 0.7rem;
+}
+
+.footer-copyright-redirect-pages {
+    padding: 10px;
+}
+
+.footer-copyright-years-panel {
+    margin-top: 4px;
+}

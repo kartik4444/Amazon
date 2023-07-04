@@ -1,0 +1,103 @@
+.navbar {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 0px 0px 18px;
+}
+
+/*
+CSS for Amazon logo PNG
+*/
+.nav-logo {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url("src/assets/amazon_logo_transparent.png");
+    height: 130px;
+    width: 140px;
+    background-size: 150px;
+}
+
+/*
+CSS for Amazon Sign in box
+*/
+
+
+.sign-in-box {
+    position: relative;
+    top: 50%;
+    left: 38%;
+    width: 370px;
+    height: 290px;
+    margin-top: 30px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+}
+
+.sign-in-input-text {
+    height: 25px;
+    width: 93%;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0.9px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.sign-in-content {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.sign-in-common-style-first {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 540;
+    margin-bottom: 20px;
+
+}
+
+.sign-in-common-style-second {
+    font-size: 0.85rem;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/*
+CSS for Amazon new customer account
+*/
+
+.new-sign-in {
+    position: relative;
+    top: 50%;
+    left: 38%;
+    width: 370px;
+}
+
+
+.footer {
+    background-color: #f6f9f8;
+    height: 190px;
+}
+
+/*
+CSS for Sign in page footer
+*/
+
+.footer p {
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    display: flex;
+}
