@@ -8,7 +8,7 @@ https://amazoncommercial.netlify.app/
 ## Tech Stack
 - Angular
 - HTML
-- CSS
+- BootStrap CSS 5
 - Typescript
 - Firebase
 
