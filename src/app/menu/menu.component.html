@@ -1,21 +1,23 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<div class="menu-panel">
-    <div class="menu-panel-menu navigation-border">
-        <mat-icon class="panel-menu-all-icon">menu</mat-icon>
-        <a>All</a>
-    </div>
+<div *ngIf="router.url !== '/signin'">
+    <div class="menu-panel">
+        <div class="menu-panel-menu navigation-border">
+            <mat-icon class="panel-menu-all-icon">menu</mat-icon>
+            <a>All</a>
+        </div>
 
 
-    <div class="menu-panel-options">
-        <p>Today's Deals</p>
-        <p>Customer Service</p>
-        <p> Registry</p>
-        <p> Gift Cards</p>
-        <p> Sell</p>
-    </div>
+        <div class="menu-panel-options">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p> Registry</p>
+            <p> Gift Cards</p>
+            <p> Sell</p>
+        </div>
 
-    <div class="menu-panel-exciting-deals">
-        Shop great deals now
+        <div class="menu-panel-exciting-deals">
+            Shop great deals now
+        </div>
     </div>
 </div>

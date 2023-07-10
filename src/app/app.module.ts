@@ -16,6 +16,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDividerModule } from '@angular/material/divider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CartComponent } from './cart/cart.component';
+import { ShoppageComponent } from './shoppage/shoppage.component';
+import { ProductdetailComponent } from './productdetail/productdetail.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ShopsectionComponent,
     FooterComponent,
     SigninComponent,
-    HomeComponent
+    HomeComponent,
+    CartComponent,
+    ShoppageComponent,
+    ProductdetailComponent
   ],
   imports: [
     BrowserModule,
